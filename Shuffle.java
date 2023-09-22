@@ -1,4 +1,4 @@
-/* From Discrete Mathematics (MATH1510) - Algorithms:
+/* From Discrete Mathematics (MATH1510) - Algorithms - Shuffle:
  * 1. Assume we have 'n' items to permute
  * 2. Put them in an array A[0],...,A[n-1]
  * 3. For k = n-1, n-2, ..., 2, 1, (count down the index number of the array) do:
@@ -11,7 +11,6 @@
 class Shuffle {
     static String[] animals = {"bandicoot", "bilby", "echidna", "kangaroo", "koala", "platypus", "possum", "wallaby"};
 
-        
         public static void main(String args[]) {
             // Initial listing:
             System.out.print(arrayList());
@@ -36,7 +35,6 @@ class Shuffle {
 
         }
 
-
         private static String arrayList() { 
             StringBuilder result = new StringBuilder("Elements in the animals array: ");
             for (int i = 0; i < animals.length; i++) {
@@ -47,5 +45,4 @@ class Shuffle {
             }
             return result.toString();
         }
-
 }
