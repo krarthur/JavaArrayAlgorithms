@@ -8,8 +8,8 @@
  *   - Set r = 0
  *   - For i = 1,...,k do if (A[i] > A[r]) then r = i
  * - Swap A[r] with A[k]
- *  Apply the algorithm to: {bandicoot, bilby, echidna, kangaroo, koala, platypus, possum}
- *                               0        1       2         3       4       5         6 
- * n = 7
+ *  Apply the algorithm to: {3, 1, 4, 5, 6, 2} 
+ *                 index:  0  1  2  3  4  5 
+ * n = 6
  * Note that: r keeps track of the index of the largest item so far in A[0]...A[i]
  */
