@@ -24,9 +24,9 @@ class Shuffle {
                 System.out.println(animals[r]);
 
                 // Swap A[r] with A[k]
-                String aux = animals[r];
+                String temp = animals[r];
                 animals[r] = animals[k];
-                animals[k] = aux;
+                animals[k] = temp;
 
                 System.out.println("Shuffled List: " + arrayList());
             }
